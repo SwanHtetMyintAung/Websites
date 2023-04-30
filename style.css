@@ -1,0 +1,106 @@
+/* for roof color and window color box */
+.roof-color-box,
+.window-color-box{
+    width: 450px;
+    height: 60px;
+    margin: 20px auto;
+}
+
+/* for all color box  */
+.roof-color-box,
+.window-color-box,
+.home-color-box,
+.home-door-color{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+
+.home-color-box,
+.home-door-color{
+    height: 450px;
+    width: 60px;
+    flex-direction: column; 
+}
+
+/* for border  */
+.roof,
+.home-window,
+.home-back,
+.home-door{
+    border: 1px solid black;
+}
+
+/* second section */
+.second-sec{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/* for home section */
+.home{
+    width: 600px;
+    height: auto;
+    margin: 0 50px;   
+}
+
+.roof{
+    margin-top: 50px;
+    width: 400px;
+    height: 60px;
+    position: relative;
+    left: 100px;
+}
+
+.home-back{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 150px;
+}
+
+.home-window{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 30px;
+    top:40px;
+}
+
+.home-door{
+    width: 100px;
+    height: 160px;
+    float: right;
+    position: relative;
+    right: 50px;
+    top: 36px;
+}
+
+/* color section  */
+.red{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.blue{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 100%;
+}
+
+.yellow{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 100%;
+}
+
+.red, .blue, .yellow{
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
